@@ -1,8 +1,10 @@
+import Header from "../components/Header"
+
 const OverviewPage = () =>
 {
     return (
-        <div>
-            overview
+        <div className="w-screen">
+        <Header title="Overview"/>
         </div>
     )
 }

@@ -4,25 +4,25 @@ import {AnimatePresence, motion} from "framer-motion"
 import {Link as IconL} from "react-router-dom"
 const SIDEBAR_ITEMS =[
     {
-        name:"Overview",icon:BarChart2,color:"#6366f1",path:"/"
+        name:"Overview",icon:BarChart2,color:"#008585",path:"/"
     },
     {
-        name:"Products",icon:ShoppingBag,color:"#6366f1",path:"/Products"
+        name:"Products",icon:ShoppingBag,color:"#74a892",path:"/Products"
     },
     {
-        name:"Users",icon:Users,color:"#6366f1",path:"/Users"
+        name:"Users",icon:Users,color:"#fbf2c4",path:"/Users"
     },
     {
         name:"Sales",icon:DollarSign,color:"#6366f1",path:"/Sales"
     },
     {
-        name:"Order",icon:ShoppingCart,color:"#6366f1",path:"/Order"
+        name:"Order",icon:ShoppingCart,color:"#c7522a",path:"/Order"
     },
     {
-        name:"Analytics",icon:TrendingUp,color:"#6366f1",path:"/Analytics"
+        name:"Analytics",icon:TrendingUp,color:"#d74a49",path:"/Analytics"
     },
     {
-        name:"Settings",icon:Settings,color:"#6366f1",path:"/Settings"
+        name:"Settings",icon:Settings,color:"#e5c185",path:"/Settings"
     }
 ]
 const Sidebar =()=>
