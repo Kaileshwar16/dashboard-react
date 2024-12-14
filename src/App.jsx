@@ -1,6 +1,11 @@
 import { Route,Routes } from "react-router-dom"
 import OverviewPage from "./pages/OverviewPage"
 import ProductsPage from "./pages/ProductsPage"
+import SalesPage from "./pages/SalesPage"
+import SettingsPage from "./pages/SettingsPage"
+import UsersPage from "./pages/UsersPage"
+import OrderPage from "./pages/OrderPage"
+import AnalyticsPage from "./pages/AnalyticsPage"
 import Sidebar from "./components/Sidebar"
 function App() {
   
@@ -17,6 +22,11 @@ function App() {
       <Routes>
         <Route path="/" element={<OverviewPage/>}/>
         <Route path="/Products" element={<ProductsPage/>}/>
+        <Route path="/Users" element={<UsersPage/>}/>
+        <Route path="/Sales" element={<SalesPage/>}/>
+        <Route path="/Analytics" element={<AnalyticsPage/>}/>
+        <Route path="/Order" element={<OrderPage/>}/>
+        <Route path="/Settings" element={<SettingsPage/>}/>
       </Routes>
       
     </div>

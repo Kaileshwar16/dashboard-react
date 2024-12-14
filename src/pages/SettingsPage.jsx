@@ -1,12 +1,12 @@
 import Header from "../components/Header"
 import StatCard from "../components/StatCard"
 import {motion} from "framer-motion"
-import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react"
-const ProductPage = () =>
+import { BarChart2, Settings, ShoppingBag, Users, Zap } from "lucide-react"
+const SettingsPage = () =>
 {
     return (
         <div className="w-screen">
-        <Header title="Products"/>
+        <Header title="Settings"/>
         <main className="max-w-7xl mx-auto py-6 px-4 lg:px-8 ">
             <motion.div
             className="grid grid-cols-1 gap-5 sm:grid-cols-2  lg:grid-cols-4 mb-8"
@@ -22,4 +22,4 @@ const ProductPage = () =>
         </div>
     )
 }
-export default ProductPage;
+export default SettingsPage;
