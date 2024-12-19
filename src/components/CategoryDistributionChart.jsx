@@ -15,7 +15,7 @@ const CategoryDistributionChart =()=>
        animate={{opacity:1,y:0}}
        transition={{delay:0.3}}>
         <h2 className="text-sm font-san tracking-wider mb-4">Category Distribution Chart</h2>
-        <div className="h-80">
+        <div className="h-80 ">
         <ResponsiveContainer  width={"100%"} height={"100%"}>
             <PieChart>
             <Pie

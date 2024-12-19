@@ -34,7 +34,7 @@ const SalesOverviewChart =()=>
                         backgroundColor: "rgba(31, 41, 55, 0.8)",
                         borderColor: "#4B5563",
                     }}
-                    itemStyle={{ color: "#E5E7EB" }}>
+                    itemStyle={{ color: "#10B981" }}>
 
                     </Tooltip>
                     <Line

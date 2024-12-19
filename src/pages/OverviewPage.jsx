@@ -4,10 +4,11 @@ import {motion} from "framer-motion"
 import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react"
 import SalesOverviewChart from "../components/SalesOverviewChart"
 import CategoryDistributionChart from "../components/CategoryDistributionChart"
+import SalesBarChart from "../components/BarChart"
 const OverviewPage = () =>
 {
     return (
-        <div className="w-screen">
+        <div className="w-screen overflow-auto backdrop-blur-lg">
         <Header title="Overview"/>
         <main className="max-w-7xl mx-auto py-6 px-4 lg:px-8 ">
             <motion.div
@@ -22,8 +23,13 @@ const OverviewPage = () =>
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
-                <SalesOverviewChart/>
-                <CategoryDistributionChart/>
+                <div><SalesOverviewChart/></div>
+                <div><CategoryDistributionChart/></div>
+                
+                <div className="lg:col-span-2">
+                <SalesBarChart/>
+                </div>
+                
 
             </div>
         </main>
