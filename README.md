@@ -1,8 +1,17 @@
-# React + Vite
+A modern, responsive Sales Dashboard built using React. This dashboard displays key performance metrics, charts, and tables to help businesses monitor and analyze their sales data in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+    📈 Interactive charts and graphs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    🧮 Real-time summary metrics (e.g. revenue, orders, conversion rate)
+
+    🔍 Filterable and paginated tables
+
+    📱 Fully responsive layout (desktop, tablet, mobile)
+
+    ⚛️ Built with React + modern component libraries
+
+    Frontend: React, React Router
+    Charts: Chart.js / Recharts 
+    UI: Tailwind CSS
