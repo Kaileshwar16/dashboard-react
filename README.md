@@ -11,7 +11,17 @@ A modern, responsive Sales Dashboard built using React. This dashboard displays 
     📱 Fully responsive layout (desktop, tablet, mobile)
 
     ⚛️ Built with React + modern component libraries
+    
+🛠️ Tech Stack
 
     Frontend: React, React Router
     Charts: Chart.js / Recharts 
     UI: Tailwind CSS
+    
+📦 Installation
+
+    git clone https://github.com/Kaileshwar16/dashboard-react.git
+    cd dashboard-react
+    npm install
+    npm start
+
